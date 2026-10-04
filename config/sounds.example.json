@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "player": "auto",
+  "volume": 70,
+  "throttleMs": 250,
+  "debug": false,
+  "events": {
+    "session.created": "sounds/startup.wav",
+    "session.idle": "sounds/done-soft.wav",
+    "session.error": { "file": "sounds/error.wav", "volume": 90 },
+    "permission.asked": { "file": "sounds/ping.wav", "volume": 70 }
+  },
+  "commands": {}
+}
