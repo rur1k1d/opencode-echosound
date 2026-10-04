@@ -1,0 +1,21 @@
+{
+  "name": "opencode-echosound",
+  "version": "0.1.0",
+  "description": "Non-blocking sound hooks for opencode: startup, idle, error and permission chimes.",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "./tests/run.sh"
+  },
+  "files": [
+    "plugin/",
+    "config/",
+    "install.sh",
+    "README.md",
+    "LICENSE"
+  ]
+}
